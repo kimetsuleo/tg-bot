@@ -1,0 +1,6 @@
+spring:
+  config:
+    import:
+      - classpath:datasource.yaml
+      - classpath:logging.yaml
+      - classpath:bot.yaml

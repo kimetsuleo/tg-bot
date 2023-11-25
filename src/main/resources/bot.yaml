@@ -1,0 +1,4 @@
+#Настройки ТГ-Бота
+bot:
+  token: ${TG_BOT_TOKEN:6706177171:AAFDdGwcjqQmFpDkjCZSrXHL1V83Pk1KEfU}
+  username: ${TG_BOT_USERNAME:demoAndr_bot}

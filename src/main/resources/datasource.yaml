@@ -1,0 +1,10 @@
+#настройки подключения к БД
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver #драйвер подключения к бд
+    url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5432/tgbot} #url подлкючения к бд
+    username: ${DATASOURCE_USERNAME:postgres} #username подключения
+    password: ${DATASOURCE_PASSWORD:postgres} #пароль подключения
+  #настройки liquibase
+  liquibase:
+    change-log: ${LIQUIBASE_CHANGE_LOG:classpath:db/changelog/liquibase.yaml}

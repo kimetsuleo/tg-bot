@@ -1,0 +1,5 @@
+#Логирование
+logging:
+  file:
+    path: .logs
+    name: ${logging.file.path}/log.log
